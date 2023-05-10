@@ -1,0 +1,9 @@
+mail:
+  host: smtp.fakeserver.org
+  port: 587
+  secure: false
+  auth:
+    user: postmaster@123456.fakeserver.org
+    pass: 7890
+  email: fake@email.com
+file: '/tmp/mail.json'

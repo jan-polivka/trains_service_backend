@@ -1,0 +1,33 @@
+{
+  "devDependencies": {
+    "@jest/globals": "^29.5.0",
+    "@types/node": "^18.15.11",
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.22",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "tcr": "jest unit && git commit -am \"working\" || git reset --hard",
+    "test": "jest unit",
+    "integration": "jest int",
+    "dev": "nodemon",
+    "start": "ts-node src/main.ts"
+  },
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "@fastify/cors": "^8.2.1",
+    "@types/js-yaml": "^4.0.5",
+    "@types/nodemailer": "^6.4.7",
+    "fastify": "^4.15.0",
+    "js-yaml": "^4.1.0",
+    "node-schedule": "^2.1.1",
+    "nodemailer": "^6.9.1"
+  }
+}

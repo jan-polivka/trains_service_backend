@@ -1,0 +1,730 @@
+{
+    "version": "1.2",
+    "timestamp": "1682146094",
+    "connection": [
+        {
+            "id": "0",
+            "departure": {
+                "delay": "0",
+                "station": "Lier",
+                "stationinfo": {
+                    "locationX": "4.560614",
+                    "locationY": "51.135758",
+                    "id": "BE.NMBS.008821600",
+                    "name": "Lier",
+                    "@id": "http://irail.be/stations/NMBS/008821600",
+                    "standardname": "Lier"
+                },
+                "time": "1682141700",
+                "vehicle": "BE.NMBS.IC4327",
+                "vehicleinfo": {
+                    "name": "BE.NMBS.IC4327",
+                    "shortname": "IC4327",
+                    "number": "4327",
+                    "type": "IC",
+                    "locationX": "0",
+                    "locationY": "0",
+                    "@id": "http://irail.be/vehicle/IC4327"
+                },
+                "platform": "1",
+                "platforminfo": {
+                    "name": "1",
+                    "normal": "1"
+                },
+                "canceled": "0",
+                "stops": {
+                    "number": "1",
+                    "stop": [
+                        {
+                            "id": "0",
+                            "station": "Antwerp-Berchem",
+                            "stationinfo": {
+                                "locationX": "4.432221",
+                                "locationY": "51.19923",
+                                "id": "BE.NMBS.008821121",
+                                "name": "Antwerp-Berchem",
+                                "@id": "http://irail.be/stations/NMBS/008821121",
+                                "standardname": "Antwerpen-Berchem"
+                            },
+                            "scheduledArrivalTime": "1682142300",
+                            "arrivalCanceled": "0",
+                            "arrived": "1",
+                            "scheduledDepartureTime": "1682142420",
+                            "arrivalDelay": "0",
+                            "departureDelay": "120",
+                            "departureCanceled": "0",
+                            "left": "1",
+                            "isExtraStop": "0",
+                            "platform": "?",
+                            "platforminfo": {
+                                "name": "?",
+                                "normal": "1"
+                            }
+                        }
+                    ]
+                },
+                "departureConnection": "http://irail.be/connections/8821600/20230422/IC4327",
+                "direction": {
+                    "name": "Antwerpen-Centraal"
+                },
+                "left": "1",
+                "walking": "0"
+            },
+            "arrival": {
+                "delay": "120",
+                "station": "Antwerp-Central",
+                "stationinfo": {
+                    "locationX": "4.421101",
+                    "locationY": "51.2172",
+                    "id": "BE.NMBS.008821006",
+                    "name": "Antwerp-Central",
+                    "@id": "http://irail.be/stations/NMBS/008821006",
+                    "standardname": "Antwerpen-Centraal"
+                },
+                "time": "1682142660",
+                "vehicle": "BE.NMBS.IC4327",
+                "vehicleinfo": {
+                    "name": "BE.NMBS.IC4327",
+                    "shortname": "IC4327",
+                    "number": "4327",
+                    "type": "IC",
+                    "locationX": "0",
+                    "locationY": "0",
+                    "@id": "http://irail.be/vehicle/IC4327"
+                },
+                "platform": "2",
+                "platforminfo": {
+                    "name": "2",
+                    "normal": "1"
+                },
+                "canceled": "0",
+                "direction": {
+                    "name": "Antwerpen-Centraal"
+                },
+                "arrived": "1",
+                "walking": "0"
+            },
+            "duration": "960",
+            "remarks": {
+                "number": "0",
+                "remark": []
+            },
+            "alerts": {
+                "number": "0",
+                "alert": []
+            }
+        },
+        {
+            "id": "1",
+            "departure": {
+                "delay": "240",
+                "station": "Lier",
+                "stationinfo": {
+                    "locationX": "4.560614",
+                    "locationY": "51.135758",
+                    "id": "BE.NMBS.008821600",
+                    "name": "Lier",
+                    "@id": "http://irail.be/stations/NMBS/008821600",
+                    "standardname": "Lier"
+                },
+                "time": "1682142720",
+                "vehicle": "BE.NMBS.IC4207",
+                "vehicleinfo": {
+                    "name": "BE.NMBS.IC4207",
+                    "shortname": "IC4207",
+                    "number": "4207",
+                    "type": "IC",
+                    "locationX": "0",
+                    "locationY": "0",
+                    "@id": "http://irail.be/vehicle/IC4207"
+                },
+                "platform": "1",
+                "platforminfo": {
+                    "name": "1",
+                    "normal": "1"
+                },
+                "canceled": "0",
+                "stops": {
+                    "number": "1",
+                    "stop": [
+                        {
+                            "id": "0",
+                            "station": "Antwerp-Berchem",
+                            "stationinfo": {
+                                "locationX": "4.432221",
+                                "locationY": "51.19923",
+                                "id": "BE.NMBS.008821121",
+                                "name": "Antwerp-Berchem",
+                                "@id": "http://irail.be/stations/NMBS/008821121",
+                                "standardname": "Antwerpen-Berchem"
+                            },
+                            "scheduledArrivalTime": "1682143260",
+                            "arrivalCanceled": "0",
+                            "arrived": "1",
+                            "scheduledDepartureTime": "1682143440",
+                            "arrivalDelay": "180",
+                            "departureDelay": "60",
+                            "departureCanceled": "0",
+                            "left": "1",
+                            "isExtraStop": "0",
+                            "platform": "?",
+                            "platforminfo": {
+                                "name": "?",
+                                "normal": "1"
+                            }
+                        }
+                    ]
+                },
+                "departureConnection": "http://irail.be/connections/8821600/20230422/IC4207",
+                "direction": {
+                    "name": "Antwerpen-Centraal"
+                },
+                "left": "1",
+                "walking": "0"
+            },
+            "arrival": {
+                "delay": "60",
+                "station": "Antwerp-Central",
+                "stationinfo": {
+                    "locationX": "4.421101",
+                    "locationY": "51.2172",
+                    "id": "BE.NMBS.008821006",
+                    "name": "Antwerp-Central",
+                    "@id": "http://irail.be/stations/NMBS/008821006",
+                    "standardname": "Antwerpen-Centraal"
+                },
+                "time": "1682143680",
+                "vehicle": "BE.NMBS.IC4207",
+                "vehicleinfo": {
+                    "name": "BE.NMBS.IC4207",
+                    "shortname": "IC4207",
+                    "number": "4207",
+                    "type": "IC",
+                    "locationX": "0",
+                    "locationY": "0",
+                    "@id": "http://irail.be/vehicle/IC4207"
+                },
+                "platform": "14",
+                "platforminfo": {
+                    "name": "14",
+                    "normal": "1"
+                },
+                "canceled": "0",
+                "direction": {
+                    "name": "Antwerpen-Centraal"
+                },
+                "arrived": "1",
+                "walking": "0"
+            },
+            "duration": "960",
+            "remarks": {
+                "number": "0",
+                "remark": []
+            },
+            "alerts": {
+                "number": "0",
+                "alert": []
+            }
+        },
+        {
+            "id": "2",
+            "departure": {
+                "delay": "120",
+                "station": "Lier",
+                "stationinfo": {
+                    "locationX": "4.560614",
+                    "locationY": "51.135758",
+                    "id": "BE.NMBS.008821600",
+                    "name": "Lier",
+                    "@id": "http://irail.be/stations/NMBS/008821600",
+                    "standardname": "Lier"
+                },
+                "time": "1682142960",
+                "vehicle": "BE.NMBS.L2878",
+                "vehicleinfo": {
+                    "name": "BE.NMBS.L2878",
+                    "shortname": "L2878",
+                    "number": "2878",
+                    "type": "L",
+                    "locationX": "0",
+                    "locationY": "0",
+                    "@id": "http://irail.be/vehicle/L2878"
+                },
+                "platform": "2",
+                "platforminfo": {
+                    "name": "2",
+                    "normal": "1"
+                },
+                "canceled": "0",
+                "stops": {
+                    "number": "3",
+                    "stop": [
+                        {
+                            "id": "0",
+                            "station": "Boechout",
+                            "stationinfo": {
+                                "locationX": "4.494489",
+                                "locationY": "51.16348",
+                                "id": "BE.NMBS.008821634",
+                                "name": "Boechout",
+                                "@id": "http://irail.be/stations/NMBS/008821634",
+                                "standardname": "Boechout"
+                            },
+                            "scheduledArrivalTime": "1682143260",
+                            "arrivalCanceled": "0",
+                            "arrived": "1",
+                            "scheduledDepartureTime": "1682143260",
+                            "arrivalDelay": "120",
+                            "departureDelay": "180",
+                            "departureCanceled": "0",
+                            "left": "1",
+                            "isExtraStop": "0",
+                            "platform": "?",
+                            "platforminfo": {
+                                "name": "?",
+                                "normal": "1"
+                            }
+                        },
+                        {
+                            "id": "1",
+                            "station": "Mortsel",
+                            "stationinfo": {
+                                "locationX": "4.448437",
+                                "locationY": "51.18296",
+                                "id": "BE.NMBS.008821147",
+                                "name": "Mortsel",
+                                "@id": "http://irail.be/stations/NMBS/008821147",
+                                "standardname": "Mortsel"
+                            },
+                            "scheduledArrivalTime": "1682143500",
+                            "arrivalCanceled": "0",
+                            "arrived": "1",
+                            "scheduledDepartureTime": "1682143500",
+                            "arrivalDelay": "180",
+                            "departureDelay": "240",
+                            "departureCanceled": "0",
+                            "left": "1",
+                            "isExtraStop": "0",
+                            "platform": "?",
+                            "platforminfo": {
+                                "name": "?",
+                                "normal": "1"
+                            }
+                        },
+                        {
+                            "id": "2",
+                            "station": "Antwerp-Berchem",
+                            "stationinfo": {
+                                "locationX": "4.432221",
+                                "locationY": "51.19923",
+                                "id": "BE.NMBS.008821121",
+                                "name": "Antwerp-Berchem",
+                                "@id": "http://irail.be/stations/NMBS/008821121",
+                                "standardname": "Antwerpen-Berchem"
+                            },
+                            "scheduledArrivalTime": "1682143680",
+                            "arrivalCanceled": "0",
+                            "arrived": "1",
+                            "scheduledDepartureTime": "1682143800",
+                            "arrivalDelay": "180",
+                            "departureDelay": "180",
+                            "departureCanceled": "0",
+                            "left": "1",
+                            "isExtraStop": "0",
+                            "platform": "?",
+                            "platforminfo": {
+                                "name": "?",
+                                "normal": "1"
+                            }
+                        }
+                    ]
+                },
+                "departureConnection": "http://irail.be/connections/8821600/20230422/L2878",
+                "direction": {
+                    "name": "Antwerpen-Centraal"
+                },
+                "left": "1",
+                "walking": "0"
+            },
+            "arrival": {
+                "delay": "120",
+                "station": "Antwerp-Central",
+                "stationinfo": {
+                    "locationX": "4.421101",
+                    "locationY": "51.2172",
+                    "id": "BE.NMBS.008821006",
+                    "name": "Antwerp-Central",
+                    "@id": "http://irail.be/stations/NMBS/008821006",
+                    "standardname": "Antwerpen-Centraal"
+                },
+                "time": "1682144040",
+                "vehicle": "BE.NMBS.L2878",
+                "vehicleinfo": {
+                    "name": "BE.NMBS.L2878",
+                    "shortname": "L2878",
+                    "number": "2878",
+                    "type": "L",
+                    "locationX": "0",
+                    "locationY": "0",
+                    "@id": "http://irail.be/vehicle/L2878"
+                },
+                "platform": "3",
+                "platforminfo": {
+                    "name": "3",
+                    "normal": "1"
+                },
+                "canceled": "0",
+                "direction": {
+                    "name": "Antwerpen-Centraal"
+                },
+                "arrived": "1",
+                "walking": "0"
+            },
+            "duration": "1080",
+            "remarks": {
+                "number": "0",
+                "remark": []
+            },
+            "alerts": {
+                "number": "0",
+                "alert": []
+            }
+        },
+        {
+            "id": "3",
+            "departure": {
+                "delay": "60",
+                "station": "Lier",
+                "stationinfo": {
+                    "locationX": "4.560614",
+                    "locationY": "51.135758",
+                    "id": "BE.NMBS.008821600",
+                    "name": "Lier",
+                    "@id": "http://irail.be/stations/NMBS/008821600",
+                    "standardname": "Lier"
+                },
+                "time": "1682144220",
+                "vehicle": "BE.NMBS.IC2928",
+                "vehicleinfo": {
+                    "name": "BE.NMBS.IC2928",
+                    "shortname": "IC2928",
+                    "number": "2928",
+                    "type": "IC",
+                    "locationX": "0",
+                    "locationY": "0",
+                    "@id": "http://irail.be/vehicle/IC2928"
+                },
+                "platform": "1",
+                "platforminfo": {
+                    "name": "1",
+                    "normal": "1"
+                },
+                "canceled": "0",
+                "stops": {
+                    "number": "1",
+                    "stop": [
+                        {
+                            "id": "0",
+                            "station": "Antwerp-Berchem",
+                            "stationinfo": {
+                                "locationX": "4.432221",
+                                "locationY": "51.19923",
+                                "id": "BE.NMBS.008821121",
+                                "name": "Antwerp-Berchem",
+                                "@id": "http://irail.be/stations/NMBS/008821121",
+                                "standardname": "Antwerpen-Berchem"
+                            },
+                            "scheduledArrivalTime": "1682144760",
+                            "arrivalCanceled": "0",
+                            "arrived": "1",
+                            "scheduledDepartureTime": "1682144820",
+                            "arrivalDelay": "60",
+                            "departureDelay": "120",
+                            "departureCanceled": "0",
+                            "left": "1",
+                            "isExtraStop": "0",
+                            "platform": "?",
+                            "platforminfo": {
+                                "name": "?",
+                                "normal": "1"
+                            }
+                        }
+                    ]
+                },
+                "departureConnection": "http://irail.be/connections/8821600/20230422/IC2928",
+                "direction": {
+                    "name": "Antwerpen-Centraal"
+                },
+                "left": "1",
+                "walking": "0"
+            },
+            "arrival": {
+                "delay": "120",
+                "station": "Antwerp-Central",
+                "stationinfo": {
+                    "locationX": "4.421101",
+                    "locationY": "51.2172",
+                    "id": "BE.NMBS.008821006",
+                    "name": "Antwerp-Central",
+                    "@id": "http://irail.be/stations/NMBS/008821006",
+                    "standardname": "Antwerpen-Centraal"
+                },
+                "time": "1682145060",
+                "vehicle": "BE.NMBS.IC2928",
+                "vehicleinfo": {
+                    "name": "BE.NMBS.IC2928",
+                    "shortname": "IC2928",
+                    "number": "2928",
+                    "type": "IC",
+                    "locationX": "0",
+                    "locationY": "0",
+                    "@id": "http://irail.be/vehicle/IC2928"
+                },
+                "platform": "3",
+                "platforminfo": {
+                    "name": "3",
+                    "normal": "1"
+                },
+                "canceled": "0",
+                "direction": {
+                    "name": "Antwerpen-Centraal"
+                },
+                "arrived": "1",
+                "walking": "0"
+            },
+            "duration": "840",
+            "remarks": {
+                "number": "0",
+                "remark": []
+            },
+            "alerts": {
+                "number": "0",
+                "alert": []
+            }
+        },
+        {
+            "id": "4",
+            "departure": {
+                "delay": "120",
+                "station": "Lier",
+                "stationinfo": {
+                    "locationX": "4.560614",
+                    "locationY": "51.135758",
+                    "id": "BE.NMBS.008821600",
+                    "name": "Lier",
+                    "@id": "http://irail.be/stations/NMBS/008821600",
+                    "standardname": "Lier"
+                },
+                "time": "1682145300",
+                "vehicle": "BE.NMBS.IC4328",
+                "vehicleinfo": {
+                    "name": "BE.NMBS.IC4328",
+                    "shortname": "IC4328",
+                    "number": "4328",
+                    "type": "IC",
+                    "locationX": "0",
+                    "locationY": "0",
+                    "@id": "http://irail.be/vehicle/IC4328"
+                },
+                "platform": "1",
+                "platforminfo": {
+                    "name": "1",
+                    "normal": "1"
+                },
+                "canceled": "0",
+                "stops": {
+                    "number": "1",
+                    "stop": [
+                        {
+                            "id": "0",
+                            "station": "Antwerp-Berchem",
+                            "stationinfo": {
+                                "locationX": "4.432221",
+                                "locationY": "51.19923",
+                                "id": "BE.NMBS.008821121",
+                                "name": "Antwerp-Berchem",
+                                "@id": "http://irail.be/stations/NMBS/008821121",
+                                "standardname": "Antwerpen-Berchem"
+                            },
+                            "scheduledArrivalTime": "1682145900",
+                            "arrivalCanceled": "0",
+                            "arrived": "1",
+                            "scheduledDepartureTime": "1682146020",
+                            "arrivalDelay": "120",
+                            "departureDelay": "120",
+                            "departureCanceled": "0",
+                            "left": "0",
+                            "isExtraStop": "0",
+                            "platform": "?",
+                            "platforminfo": {
+                                "name": "?",
+                                "normal": "1"
+                            }
+                        }
+                    ]
+                },
+                "departureConnection": "http://irail.be/connections/8821600/20230422/IC4328",
+                "direction": {
+                    "name": "Antwerpen-Centraal"
+                },
+                "left": "1",
+                "walking": "0"
+            },
+            "arrival": {
+                "delay": "0",
+                "station": "Antwerp-Central",
+                "stationinfo": {
+                    "locationX": "4.421101",
+                    "locationY": "51.2172",
+                    "id": "BE.NMBS.008821006",
+                    "name": "Antwerp-Central",
+                    "@id": "http://irail.be/stations/NMBS/008821006",
+                    "standardname": "Antwerpen-Centraal"
+                },
+                "time": "1682146260",
+                "vehicle": "BE.NMBS.IC4328",
+                "vehicleinfo": {
+                    "name": "BE.NMBS.IC4328",
+                    "shortname": "IC4328",
+                    "number": "4328",
+                    "type": "IC",
+                    "locationX": "0",
+                    "locationY": "0",
+                    "@id": "http://irail.be/vehicle/IC4328"
+                },
+                "platform": "2",
+                "platforminfo": {
+                    "name": "2",
+                    "normal": "1"
+                },
+                "canceled": "0",
+                "direction": {
+                    "name": "Antwerpen-Centraal"
+                },
+                "arrived": "0",
+                "walking": "0"
+            },
+            "duration": "960",
+            "remarks": {
+                "number": "0",
+                "remark": []
+            },
+            "alerts": {
+                "number": "0",
+                "alert": []
+            }
+        },
+        {
+            "id": "5",
+            "departure": {
+                "delay": "0",
+                "station": "Lier",
+                "stationinfo": {
+                    "locationX": "4.560614",
+                    "locationY": "51.135758",
+                    "id": "BE.NMBS.008821600",
+                    "name": "Lier",
+                    "@id": "http://irail.be/stations/NMBS/008821600",
+                    "standardname": "Lier"
+                },
+                "time": "1682146320",
+                "vehicle": "BE.NMBS.IC4208",
+                "vehicleinfo": {
+                    "name": "BE.NMBS.IC4208",
+                    "shortname": "IC4208",
+                    "number": "4208",
+                    "type": "IC",
+                    "locationX": "0",
+                    "locationY": "0",
+                    "@id": "http://irail.be/vehicle/IC4208"
+                },
+                "platform": "1",
+                "platforminfo": {
+                    "name": "1",
+                    "normal": "1"
+                },
+                "canceled": "0",
+                "stops": {
+                    "number": "1",
+                    "stop": [
+                        {
+                            "id": "0",
+                            "station": "Antwerp-Berchem",
+                            "stationinfo": {
+                                "locationX": "4.432221",
+                                "locationY": "51.19923",
+                                "id": "BE.NMBS.008821121",
+                                "name": "Antwerp-Berchem",
+                                "@id": "http://irail.be/stations/NMBS/008821121",
+                                "standardname": "Antwerpen-Berchem"
+                            },
+                            "scheduledArrivalTime": "1682146860",
+                            "arrivalCanceled": "0",
+                            "arrived": "0",
+                            "scheduledDepartureTime": "1682147040",
+                            "arrivalDelay": "0",
+                            "departureDelay": "0",
+                            "departureCanceled": "0",
+                            "left": "0",
+                            "isExtraStop": "0",
+                            "platform": "?",
+                            "platforminfo": {
+                                "name": "?",
+                                "normal": "1"
+                            }
+                        }
+                    ]
+                },
+                "departureConnection": "http://irail.be/connections/8821600/20230422/IC4208",
+                "direction": {
+                    "name": "Antwerpen-Centraal"
+                },
+                "left": "0",
+                "walking": "0"
+            },
+            "arrival": {
+                "delay": "0",
+                "station": "Antwerp-Central",
+                "stationinfo": {
+                    "locationX": "4.421101",
+                    "locationY": "51.2172",
+                    "id": "BE.NMBS.008821006",
+                    "name": "Antwerp-Central",
+                    "@id": "http://irail.be/stations/NMBS/008821006",
+                    "standardname": "Antwerpen-Centraal"
+                },
+                "time": "1682147280",
+                "vehicle": "BE.NMBS.IC4208",
+                "vehicleinfo": {
+                    "name": "BE.NMBS.IC4208",
+                    "shortname": "IC4208",
+                    "number": "4208",
+                    "type": "IC",
+                    "locationX": "0",
+                    "locationY": "0",
+                    "@id": "http://irail.be/vehicle/IC4208"
+                },
+                "platform": "14",
+                "platforminfo": {
+                    "name": "14",
+                    "normal": "1"
+                },
+                "canceled": "0",
+                "direction": {
+                    "name": "Antwerpen-Centraal"
+                },
+                "arrived": "0",
+                "walking": "0"
+            },
+            "duration": "960",
+            "remarks": {
+                "number": "0",
+                "remark": []
+            },
+            "alerts": {
+                "number": "0",
+                "alert": []
+            }
+        }
+    ]
+}
