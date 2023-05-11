@@ -3,6 +3,10 @@
         "lib": [
             "ES2019",
             "dom"
-        ]
-    }
+        ],
+        "outDir": "build/src"
+    },
+    "exclude": [
+        "**/*.test.ts"
+    ]
 }
