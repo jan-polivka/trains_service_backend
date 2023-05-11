@@ -17,7 +17,9 @@ fastify.get('/', (req, res) => {
 })
 
 fastify.get('/health', (req, res) => {
+    console.log("health is checked")
     res.status(200)
+    res.send()
 })
 
 fastify.get('/trains', async (req, res) => {
