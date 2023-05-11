@@ -3,6 +3,6 @@ runtime: nodejs16
 build:
   commands:
     build:
-      - npm install --production
+      - npm install --production && npm run build
 run:
-  command: npm run start
+  command: npm run prod
