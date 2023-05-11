@@ -76,6 +76,7 @@ fastify.get('/retrieve_time_string', async (req, res) => {
 
 fastify.listen({ port: 8080 }, async () => {
     console.log("doing the listen")
+    /*
     let optionsIntl: Intl.DateTimeFormatOptions = {
         timeZone: 'Europe/Berlin',
         year: 'numeric',
@@ -95,4 +96,5 @@ fastify.listen({ port: 8080 }, async () => {
         const isConnectionBorked = delay > 0 ? true : false
         let mailRes = await sendMail(mailerConfig, isConnectionBorked)
     });
+    */
 })
