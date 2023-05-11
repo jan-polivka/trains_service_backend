@@ -16,6 +16,10 @@ fastify.get('/', (req, res) => {
     res.send({ hello: 'world' })
 })
 
+fastify.get('/health', (req, res) => {
+    res.status(200)
+})
+
 fastify.get('/trains', async (req, res) => {
     let stations = await stationGet()
     fs.writeFile('/workspaces/ubuntu-6/trains_service/backend/stations.json', JSON.stringify(stations), err => {
