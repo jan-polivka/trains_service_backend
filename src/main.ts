@@ -19,7 +19,7 @@ fastify.get('/', (req, res) => {
 fastify.get('/health', (req, res) => {
     console.log("health is checked")
     res.status(200)
-    res.send()
+    res.send("healthy")
 })
 
 fastify.get('/trains', async (req, res) => {
@@ -80,7 +80,7 @@ fastify.get('/retrieve_time_string', async (req, res) => {
     res.send(timeString)
 })
 
-fastify.listen({ port: 8080 }, async () => {
+fastify.listen({ host: '0.0.0.0', port: 8080 }, async () => {
     console.log("doing the listen")
     /*
     let optionsIntl: Intl.DateTimeFormatOptions = {
